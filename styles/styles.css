@@ -121,3 +121,24 @@ button{
     background-color: #D8DFE8;
     color: #0A3871; 
 }
+
+
+@media (max-width: 1200px){
+    .flex__container{
+        flex-direction: column;
+        gap: 1%;
+    }
+    .action_botones{
+        flex-direction: column;
+        width: auto;
+    }
+    .text-input{
+        margin-top: 150%;
+        
+    }
+    .text-input-salida{
+        width: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
